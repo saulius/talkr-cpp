@@ -8,6 +8,8 @@ Simple event based plain text chat server written in c++ in the university. Serv
     make
     ./talkr -p 9999
 
+
+
     cd talkr-client
     make
     ./talkr localhost 9999 client
@@ -15,10 +17,10 @@ Simple event based plain text chat server written in c++ in the university. Serv
 # Commands
 
 * SVERSION - returns server version.
-* QUIT <msg> - disconnect from server.
-* HANDSHAKE <nickas> - handshake with the server.
-* PMSG <user> <msg> - sends private message <msg> to the <user>.
-* CMSG <chan> <msg> - sends <msg> to the <chan>.
-* JOIN <chan> - join channel <chan>.
-* PART <chan> - part channel <chan>.
+* QUIT msg - disconnect from server.
+* HANDSHAKE nickas - handshake with the server.
+* PMSG user msg - sends private message msg to the user.
+* CMSG chan msg - sends msg to the chan.
+* JOIN chan - join channel chan.
+* PART chan - part channel chan.
 
